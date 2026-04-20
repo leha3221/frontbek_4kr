@@ -1,0 +1,13 @@
+{
+  "name": "practice20-mongodb",
+  "version": "1.0.0",
+  "description": "REST API для управления пользователями на MongoDB (Практическое занятие 20)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
