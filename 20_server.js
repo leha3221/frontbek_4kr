@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://YourMongoAdmin:1234@localhost:27017/admin';
+const MONGO_URI = MONGO_URI || 'mongodb://YourMongoAdmin:1234@localhost:27017/admin';
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
